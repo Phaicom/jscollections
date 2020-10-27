@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Build Status](https://travis-ci.com/Phaicom/jscollections.svg?branch=main)](https://travis-ci.com/Phaicom/jscollections)
+
 This project generated from [Phaicom/react-template](https://github.com/Phaicom/react-template).
 
 ## Awesome Things
