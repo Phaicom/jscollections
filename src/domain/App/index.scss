@@ -1,40 +1,94 @@
-$bg-color: #282c34;
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: $bg-color;
-  min-height: 100vh;
+.container {
+  width: 40%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
 
-.App-link {
-  color: #61dafb;
-}
+  .card {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    .sneaker {
+      min-height: 35vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 20rem;
+        z-index: 2;
+        transition: all 0.75s ease-out;
+      }
+
+      .circle {
+        width: 15rem;
+        height: 15rem;
+        background: linear-gradient(
+          to right,
+          rgba(245, 70, 66, 0.75),
+          rgba(8, 83, 156, 0.75)
+        );
+        position: absolute;
+        border-radius: 50%;
+        z-index: 1;
+      }
+    }
+
+    .info {
+      h1 {
+        font-size: 3rem;
+        transition: all 0.75s ease-out;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        padding: 2rem 0rem;
+        color: #585858;
+        font-weight: lighter;
+        transition: all 0.75s ease-out;
+      }
+
+      .sizes {
+        display: flex;
+        justify-content: space-between;
+        transition: all 0.75s ease-out;
+
+        button {
+          padding: 0.5rem 1.75rem;
+          background: none;
+          border: none;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          border-radius: 30px;
+          cursor: pointer;
+          font-weight: bold;
+          color: #585858;
+
+          &.active {
+            background: #585858;
+            color: white;
+          }
+        }
+      }
+
+      .purchase {
+        margin-top: 5rem;
+        transition: all 0.75s ease-out;
+
+        button {
+          width: 100%;
+          padding: 1rem 0rem;
+          background: #f54642;
+          border: none;
+          color: white;
+          cursor: pointer;
+          border-radius: 30px;
+          font-weight: bolder;
+        }
+      }
+    }
   }
 }
