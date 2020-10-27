@@ -24,7 +24,6 @@ const App = (): JSX.Element => {
     description.current.style.transform = "translateZ(125px)";
     sizes.current.style.transform = "translateZ(100px)";
     purchase.current.style.transform = "translateZ(75px)";
-    // purchase.current.style.transform = "translateZ(75px)";
   };
 
   const onContainerLeave = () => {

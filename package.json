@@ -7,7 +7,6 @@
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "run-s test:*",
-    "test:unit": "CI=true react-scripts test --env=jsdom --coverage",
     "test:lint": "run-s test:lint:**:*",
     "test:lint:es": "eslint './src/**/*.{js,jsx,ts,tsx}'",
     "test:lint:es:fix": "eslint './src/**/*.{js,jsx,ts,tsx}' --quiet --fix",
