@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jscollections/static/css/main.a7c78768.chunk.css",
+    "main.js": "/jscollections/static/js/main.d363d4e6.chunk.js",
+    "main.js.map": "/jscollections/static/js/main.d363d4e6.chunk.js.map",
+    "runtime-main.js": "/jscollections/static/js/runtime-main.7bfefee7.js",
+    "runtime-main.js.map": "/jscollections/static/js/runtime-main.7bfefee7.js.map",
+    "static/js/2.831a0247.chunk.js": "/jscollections/static/js/2.831a0247.chunk.js",
+    "static/js/2.831a0247.chunk.js.map": "/jscollections/static/js/2.831a0247.chunk.js.map",
+    "static/js/3.b3229e0e.chunk.js": "/jscollections/static/js/3.b3229e0e.chunk.js",
+    "static/js/3.b3229e0e.chunk.js.map": "/jscollections/static/js/3.b3229e0e.chunk.js.map",
+    "index.html": "/jscollections/index.html",
+    "static/css/main.a7c78768.chunk.css.map": "/jscollections/static/css/main.a7c78768.chunk.css.map",
+    "static/js/2.831a0247.chunk.js.LICENSE.txt": "/jscollections/static/js/2.831a0247.chunk.js.LICENSE.txt",
+    "static/media/adidas.cc57b923.png": "/jscollections/static/media/adidas.cc57b923.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bfefee7.js",
+    "static/js/2.831a0247.chunk.js",
+    "static/css/main.a7c78768.chunk.css",
+    "static/js/main.d363d4e6.chunk.js"
+  ]
+}
